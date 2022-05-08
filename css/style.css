@@ -615,12 +615,13 @@ figure {
   -ms-border-radius: 0;
   border-radius: 0;
 }
-@media screen and (max-width: 768px) {
+ @media screen and (min-width: 992px) {
   .nav-tabs a {
+    
     font-weight: normal;
     font-size: 13px;
     padding: 15px 10px !important;
-  }
+  } 
 }
 .nav-tabs .active a {
   border: none !important;
@@ -843,6 +844,7 @@ div.cs-select span {
   box-shadow: inset 0px -34px 98px 8px rgba(0, 0, 0, 0.75);
   background: rgba(0, 0, 0, 0.2);
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-tours > div:hover:after {
     opacity: 0;
@@ -973,6 +975,16 @@ div.cs-select span {
     width: 15%;
   }
 }
+@media screen and (max-width: 992px) {
+  .feature-left .icon {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .feature-left .icon {
+    width: 15%;
+  }
+}
 .feature-left .icon i {
   display: table-cell;
   vertical-align: middle;
@@ -986,11 +998,13 @@ div.cs-select span {
 @media screen and (max-width: 992px) {
   .feature-left .feature-copy {
     width: 90%;
+   
   }
 }
 @media screen and (max-width: 768px) {
   .feature-left .feature-copy {
     width: 85%;
+    
   }
 }
 @media screen and (max-width: 480px) {
